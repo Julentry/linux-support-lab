@@ -1,93 +1,115 @@
 # Linux Support Lab
 
+Tier-1 Linux troubleshooting lab demonstrating common command-line diagnostics used by IT Support and Help Desk technicians.
+
+---
+
 ## Quick Proof (Screenshots)
-![System Info](screenshots/system-info.png)
-![Disk Usage](screenshots/disk-usage.png)
-![Process Check](screenshots/process-check.png)
+
+![System Info](screenshots/system-info.png)  
+![Disk Usage](screenshots/disk-usage.png)  
+![Process Check](screenshots/process-check.png)  
 ![Network Test](screenshots/network-test.png)
 
-## Overview
-This lab demonstrates basic Linux troubleshooting tasks commonly performed by Tier-1 IT support technicians.
+---
 
-The goal is to show familiarity with Linux command-line diagnostics used to identify system and network issues.
+## Overview
+
+This lab demonstrates Linux troubleshooting tasks commonly performed by Tier-1 IT Support technicians.
+
+Goal: demonstrate the ability to identify system and network issues using basic Linux diagnostics.
 
 ---
 
 ## Tools Used
+
 Linux terminal
 
 Commands demonstrated:
-- uname
-- df
-- top
-- ping
+
+- `uname`
+- `df`
+- `top`
+- `ping`
 
 ---
 
 ## 1) System Information
-Command:
+
+Command  
 `uname -a`
 
-Purpose:
-Displays system kernel version and OS details.
+Purpose  
+Displays kernel version and operating system information.
 
-Helpdesk use case:
+Helpdesk use case  
 Verify system version during compatibility troubleshooting.
 
-Screenshot:
+Screenshot  
+
 ![System Info](screenshots/system-info.png)
 
 ---
 
 ## 2) Disk Usage
-Command:
+
+Command  
 `df -h`
 
-Purpose:
-Displays disk space usage for all mounted drives.
+Purpose  
+Displays disk space usage for mounted drives.
 
-Helpdesk use case:
-Identify storage issues / full disks impacting performance.
+Helpdesk use case  
+Identify storage issues or full disks impacting performance.
 
-Screenshot:
+Screenshot  
+
 ![Disk Usage](screenshots/disk-usage.png)
 
 ---
 
 ## 3) Process Monitoring
-Command:
+
+Command  
 `top`
 
-Purpose:
-Shows active processes and system resource usage.
+Purpose  
+Displays active processes and system resource usage.
 
-Helpdesk use case:
-Detect processes consuming excessive CPU or memory.
+Helpdesk use case  
+Identify processes consuming excessive CPU or memory.
 
-Screenshot:
+Screenshot  
+
 ![Process Check](screenshots/process-check.png)
 
 ---
 
 ## 4) Network Connectivity
-Command:
+
+Command  
 `ping -c 4 google.com`
 
-Purpose:
+Purpose  
 Tests connectivity to an external host.
 
-Helpdesk use case:
-Verify internet access / basic network troubleshooting.
+Helpdesk use case  
+Verify internet connectivity during network troubleshooting.
 
-Screenshot:
+Screenshot  
+
 ![Network Test](screenshots/network-test.png)
 
 ---
 
 ## Skills Demonstrated
+
 - Linux command-line troubleshooting
 - System diagnostics
 - Disk usage analysis
+- Process monitoring
 - Network connectivity testing
+
+---
 
 ## Repository Structure
